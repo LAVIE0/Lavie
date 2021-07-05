@@ -38,6 +38,10 @@ function saiuMouse01(){
     let texto = document.querySelector("#p02").innerHTML = " ";
 }
 
+function ativarConversa(){
+    
+}
+
 
 
 

@@ -310,3 +310,134 @@ ul {
 #imagens p {
   font-size: 1.8em;
 }
+#cordefundo {
+  background-color: #fc3465;
+  padding: 20px;
+  margin-top: 50px;
+}
+#contrate {
+  max-width: 1020px;
+  display: flex;
+  margin: 40px auto 40px auto;
+  justify-content: space-between;
+  align-items: center;
+}
+#contrate p {
+  font-family: Titillium Web;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+#contrate a {
+  width: 250px;
+  background-color: #ffdede;
+  font-family: Pacifico;
+  font-size: 1.5rem;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  color: black;
+}
+#container-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffdede;
+  padding: 50px;
+}
+
+#textos-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-left: 100px;
+}
+#textos-footer img {
+  max-width: 400px;
+}
+#colaboradores {
+  margin-top: -150px;
+}
+#colaboradores p {
+  font-family: Titillium Web;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 150px;
+}
+
+#textos-footer p {
+  font-family: Titillium Web;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 20px 0;
+}
+#img-footer {
+  display: flex;
+}
+
+#img-footer img:last-child {
+  margin-right: 70px;
+}
+@media (max-width: 720px) {
+  #img-footer {
+    text-align: center;
+  }
+  #img-footer img {
+    margin: 20px 0;
+  }
+  #colaboradores {
+    margin-top: 0px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  #img-footer img:last-child {
+    margin-left: 0px;
+  }
+  #img-footer img:first-child {
+    margin-right: 0px;
+  }
+
+  #container-footer {
+    flex-wrap: wrap;
+  }
+  #img-footer {
+    flex-wrap: wrap;
+    margin: 0 auto;
+    display: block;
+  }
+  #textos-footer {
+    margin-left: 0px;
+    margin: 0 auto;
+  }
+  #colaboradores p {
+    margin-top: 30px;
+  }
+}
+footer {
+  background-color: #fc3465;
+}
+#footer {
+  max-width: 1020px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+#footer p {
+  font-family: Titillium Web;
+  font-size: 1rem;
+}
+#footer ul {
+  display: flex;
+}
+#footer ul li {
+  margin: 0 20px;
+  font-family: Titillium Web;
+  font-size: 1rem;
+}
+@media (max-width: 720px) {
+  #footer {
+    justify-content: center;
+  }
+}
