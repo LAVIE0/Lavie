@@ -41,10 +41,12 @@ function saiuMouse01(){
 function ativarConversa(){
     const chatH1 = document.querySelector("#chat h1");
     const chat = document.querySelector("#chat");
+    let imagem = document.getElementById("im");
     chat.classList.toggle("ativo");
     if(chatH1.innerHTML === "Solicitar troca de madrinha"){
         chatH1.innerHTML = "Madrinha"
     }
+    imagem.src = "img/chat.svg";
 }
 function trocaMadrinha(){
     const chatH1 = document.querySelector("#chat h1");
