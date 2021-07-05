@@ -12,13 +12,14 @@
 <body>
     <header id="header">
         <div>
-            <a href="index.html"><img src="img/logo.svg" alt="Logo LiVie"></a>
+            <a href="https://lavie0.github.io/LAVIE-WIN/"><img src="img/logo.svg" alt="Logo LiVie"></a>
         </div>
         <div id="lista-header">
             <ul>
-                <a href=""><li>MAG Seguros</li></a>
-                <a href=""><li>WinSocial</li></a>
-               <a href=""><li><img src="img/Asset 11.svg" alt="Usuário"></li></a>
+                <a href="https://lavie0.github.io/LAVIE-WIN/"><li>Inicío</li></a>
+                <a href="https://lavie0.github.io/LAVIE-WIN/#eventos"><li>Eventos</li></a>
+                <a href="https://lavie0.github.io/LAVIE-WIN/#saiba"><li>Saiba mais</li></a>
+               <a href=""><li><img src="img/cicera.svg" alt="Usuário"></li></a>
             </ul>
         </div>
     </header>
@@ -49,10 +50,10 @@
                 </div>
             </div>
         </div>
-        <div id="chat">
+        <div id="chat" class="ativo">
             <div id="chat-header">
-                <h1>Adriana</h1>
-                <img src="img/chat.svg" alt="Imagem coração">
+                <h1>Madrinha</h1>
+                <img src="img/chat.svg" alt="Imagem coração" id="im">
             </div>
             <div id="chat-button">
                <input type="text" placeholder="Digite seu mensagem aqui..." name="mensagem" id="mensagem">
@@ -60,10 +61,9 @@
             </div>
         </div>
         <div id="imagens">
-            <h1>O que deseja fazer?</h1>
-            <img src="img/Asset 2.svg" id="img01" alt="Chat" onmousemove="entrouMouse()" onmouseout="saiuMouse()">
+            <img src="img/Asset 2.svg" id="img01" alt="Chat" onclick="ativarConversa()" onmousemove="entrouMouse()" onmouseout="saiuMouse()">
             <p id="p01"></p>
-            <img src="img/Asset 3.svg" id="img02" alt="Madrinha" onmousemove="entrouMouse01()" onmouseout="saiuMouse01()">
+            <img src="img/Asset 3.svg" id="img02" alt="Madrinha" onclick="trocaMadrinha()"  onmousemove="entrouMouse01()" onmouseout="saiuMouse01()">
             <p id="p02"></p>
         </div>
     </section>

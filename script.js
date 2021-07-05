@@ -39,7 +39,22 @@ function saiuMouse01(){
 }
 
 function ativarConversa(){
-    
+    const chatH1 = document.querySelector("#chat h1");
+    const chat = document.querySelector("#chat");
+    chat.classList.toggle("ativo");
+    if(chatH1.innerHTML === "Solicitar troca de madrinha"){
+        chatH1.innerHTML = "Madrinha"
+    }
+}
+function trocaMadrinha(){
+    const chatH1 = document.querySelector("#chat h1");
+    let imagem = document.getElementById("im");
+    if(chatH1.innerHTML === "Madrinha"){
+        chatH1.innerHTML = "Solicitar troca de madrinha"
+    }
+    const chat = document.querySelector("#chat");
+    chat.classList.remove("ativo");
+    imagem.src = "img/icontroca.svg";
 }
 
 

@@ -11,11 +11,10 @@ body {
   max-width: 1120px;
   margin: 0 auto;
 }
-
-.texto-card hr {
-  width: 300px;
-  margin: 10px auto;
+.texto-card {
+  width: 60%;
 }
+
 .madrinha {
   max-width: 1120px;
   margin: 0 auto;
@@ -33,13 +32,15 @@ body {
 .info ul li:first-child {
   font-size: 1.5em;
 }
-
+#imagens {
+  margin-left: 15px;
+}
 #imagens img {
   margin: 20px 10px;
 }
 #chat {
   margin-top: 20px;
-  width: 450px;
+  width: 550px;
   box-shadow: 0 0 1em #707070;
   display: flex;
   flex-direction: column;
@@ -74,11 +75,26 @@ body {
   font-size: 4em;
   font-family: Pacifico;
 }
+#chat.ativo {
+  opacity: 0;
+  display: none;
+}
+#chat .texto-card {
+  width: 720px;
+}
 @media (max-width: 1113px) {
   #container {
     flex-wrap: wrap;
   }
   .texto-card hr {
-    width: 390px;
+    width: 250px;
+    margin: 10px auto 0 auto;
+  }
+  .texto-card {
+    width: 70%;
+  }
+  #chat {
+    width: 330px;
+    margin: 0 auto;
   }
 }
