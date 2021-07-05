@@ -48,18 +48,19 @@
             </div>
         </div>
         <div id="chat" class="ativo">
-            <div id="imagens">
-                <img src="img/Asset 2.svg" id="img01" alt="Chat" onclick="ativarConversa()" onmousemove="entrouMouse()" onmouseout="saiuMouse()">
-                <p id="p01"></p>
-                <img src="img/Asset 3.svg" id="img02" alt="Madrinha" onclick="trocaMadrinha()"  onmousemove="entrouMouse01()" onmouseout="saiuMouse01()">
-                <p id="p02"></p>
+            <div id="chat-header">
+                <h1>Madrinha</h1>
+                <img src="img/chat.svg" alt="Imagem coração" id="im">
+            </div>
+            <div id="chat-button">
+               <input type="text" placeholder="Digite seu mensagem aqui..." name="mensagem" id="mensagem">
+               <img src="img/but.jpg" alt="button">
             </div>
         </div>
         <div id="imagens">
-            <h1>O que deseja fazer?</h1>
-            <img src="img/Asset 2.svg" id="img01" alt="Chat" onmousemove="entrouMouse()" onmouseout="saiuMouse()">
+            <img src="img/Asset 2.svg" id="img01" alt="Chat" onclick="ativarConversa()" onmousemove="entrouMouse()" onmouseout="saiuMouse()">
             <p id="p01"></p>
-            <img src="img/Asset 3.svg" id="img02" alt="Madrinha" onmousemove="entrouMouse01()" onmouseout="saiuMouse01()">
+            <img src="img/Asset 3.svg" id="img02" alt="Madrinha" onclick="trocaMadrinha()" onmousemove="entrouMouse01()" onmouseout="saiuMouse01()">
             <p id="p02"></p>
         </div>
     </section>
@@ -92,5 +93,5 @@
         </div>
     </footer>
     <script src="script.js"></script>
-    <br>
+</body>
 </html>
