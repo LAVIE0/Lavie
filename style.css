@@ -117,9 +117,18 @@ th {
   margin-left: 12px;
   width: 80%;
   height: 3px;
+  margin-top: -15px;
   background: #cc99ff;
 }
 #lista-header a:nth-child(3):hover::after {
+  content: "";
+  display: block;
+  margin-left: 12px;
+  width: 80%;
+  height: 3px;
+  background: #cc99ff;
+}
+#lista-header a:nth-child(4):hover::after {
   content: "";
   display: block;
   margin-left: 12px;
@@ -141,6 +150,9 @@ th {
   font-family: titillium Web;
   font-size: 2em;
   font-weight: 400;
+}
+sub {
+  margin-bottom: 20px;
 }
 /** Card ================= **/
 .cards {
