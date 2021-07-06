@@ -23,7 +23,10 @@ exit.forEach((itemImg, index)=>{
 
 function entrouMouse(){
     let imagens = document.querySelector("#img01").src = "img/hover1.svg";
-    let texto = document.querySelector("#p01").innerHTML = "Converse com a madrinha";
+    let texto = document.querySelector("#p01");
+    texto.innerHTML = "Converse com a madrinha";
+    texto.style.fontFamily = "Titillium Web";
+    
 }
 function saiuMouse(){
     let imagens = document.querySelector("#img01").src = "img/Asset 2.svg";
@@ -31,7 +34,9 @@ function saiuMouse(){
 }
 function entrouMouse01(){
     let imagens = document.querySelector("#img02").src = "img/hover2.svg";
-    let texto = document.querySelector("#p02").innerHTML = "Solicitar troca de madrinha";
+    let texto = document.querySelector("#p02");
+    texto.innerHTML = "Solicitar troca de madrinha"
+    texto.style.fontFamily = "Titillium Web";
 }
 function saiuMouse01(){
     let imagens = document.querySelector("#img02").src = "img/Asset 3.svg";
