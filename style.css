@@ -106,7 +106,7 @@ th {
 #lista-header a:nth-child(1):hover::after {
   content: "";
   display: block;
-  margin-left: 15px;
+  margin-left: 8px;
   width: 80%;
   height: 3px;
   background: #cc99ff;
@@ -115,7 +115,7 @@ th {
   content: "";
   display: block;
   margin-left: 12px;
-  width: 80%;
+  width: 67px;
   height: 3px;
   margin-top: -15px;
   background: #cc99ff;
