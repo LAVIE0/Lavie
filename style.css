@@ -1,3 +1,4 @@
+/** Reset Css ======================= **/
 html,
 body,
 p,
@@ -154,7 +155,7 @@ th {
 sub {
   margin-bottom: 20px;
 }
-/** Card ================= **/
+/** Cards ================= **/
 .cards {
   max-width: 1120px;
   display: flex;
@@ -342,6 +343,7 @@ ul {
 #imagens p {
   font-size: 1.8em;
 }
+/** Footer ======================= **/
 #cordefundo {
   background-color: #fbd0da;
   padding: 20px;

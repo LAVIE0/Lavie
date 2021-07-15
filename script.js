@@ -18,7 +18,8 @@ exit.forEach((itemImg, index)=>{
         sairModal(index);
     })
 })
-
+// Código acima basicamente feito para a abertura do model, quando o user clicar no botão veja
+// mais do cite
 
 
 function entrouMouse(){
@@ -64,6 +65,7 @@ function trocaMadrinha(){
     imagem.src = "img/icontroca.svg";
 }
 
-
+// Código acima para a página da participante, botão de abrir o chat, solicitar troca de madrinhas
+// fechar o chat.
 
 
